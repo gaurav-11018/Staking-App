@@ -141,7 +141,7 @@ If the balance is less than the `threshold`, you want to set a `openForWithdraw`
 ---
 
 ## 🐸 It's a trap!
-- [ ] Make sure funds can't get trapped in the contract! **Try sending funds after you have executed! What happens?**
+ ] Make sure funds can't get trapped in the contract! **Try sending funds after you have executed! What happens?**
 - [ ] Try to create a [modifier](https://solidity-by-example.org/function-modifier/) called `notCompleted`. It will check that `ExampleExternalContract` is not completed yet. Use it to protect your `execute` and `withdraw` functions.
 
 ---
@@ -150,4 +150,4 @@ If the balance is less than the `threshold`, you want to set a `openForWithdraw`
 -  Now is a good time to run `yarn test` to run the automated testing function. It will test that you hit the core checkpoints.  You are looking for all green checkmarks and passing tests!
 ---
 
-![Screenshot (668)](https://user-images.githubusercontent.com/79459872/210261253-eca76ff2-ece5-44ee-b9f9-f7d780af9a9a.png)
+- [![Screenshot (668)](https://user-images.githubusercontent.com/79459872/210261469-506fc736-92f4-454f-9286-3678f0c6e7bf.png)
